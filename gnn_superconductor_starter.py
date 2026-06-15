@@ -5,9 +5,6 @@ Supports:
   1) Tc regression
   2) Superconductor classification
 
-Example:
-  python3 gnn_superconductor_starter.py --task regression --csv ../superconductor_data_year_split_1987.csv --split-cif-dir merged_superconductor_data/split_cifs_by_csv_label --epochs 30
-  python3 gnn_superconductor_starter.py --task classification --csv ../superconductor_data_year_split_1987.csv --split-cif-dir merged_superconductor_data/split_cifs_by_csv_label --epochs 30
 """
 
 from __future__ import annotations
